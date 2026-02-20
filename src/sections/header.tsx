@@ -5,7 +5,7 @@ import { Menu, X, Phone } from "lucide-react"
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
-  { label: "Servicos", href: "#servicos" },
+  { label: "Serviços", href: "#servicos" },
   { label: "Contato", href: "#contato" },
 ]
 
@@ -24,7 +24,7 @@ export function Header() {
             className="rounded-full"
           />
           <div className="hidden sm:block">
-            <p className="text-sm tracking-[0.2em] uppercase text-white font-[var(--font-lato)]">Estudio</p>
+            <p className="text-sm tracking-[0.2em] uppercase text-white font-[var(--font-lato)]">Estúdio</p>
             <p className="text-lg font-bold tracking-wider text-foreground">ERICLIS <span className="text-gold italic">Barber</span></p>
           </div>
         </a>
@@ -82,7 +82,7 @@ export function Header() {
               className="flex items-center justify-center gap-2 bg-gold text-primary-foreground px-5 py-3 mt-3 text-sm font-bold tracking-wider uppercase hover:bg-gold-light transition-colors font-[var(--font-lato)]"
             >
               <Phone className="h-4 w-4" />
-              Agendar Horario
+              Agendar Horário
             </a>
           </nav>
         </div>

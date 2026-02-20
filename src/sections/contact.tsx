@@ -39,7 +39,7 @@ export function Contact() {
             Entre em <span className="text-gold italic">Contato</span>
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto mt-4 font-[var(--font-lato)]">
-            Agende seu horario pelo WhatsApp ou visite nosso estudio. Estamos prontos para transformar seu visual.
+            Agende seu horário pelo WhatsApp ou visite nosso estudio. Estamos prontos para transformar seu visual.
           </p>
         </div>
 

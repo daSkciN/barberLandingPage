@@ -5,7 +5,7 @@ const services = [
   {
     title: "Corte Masculino",
     description:
-      "Cortes modernos e classicos com tecnica e precisao. Do degrade ao social, encontramos o estilo perfeito para voce.",
+      "Cortes modernos e clássicos com técnica e precisao. Do degradê ao social, encontramos o estilo perfeito para você.",
     price: "A consultar",
     image: "/corte1.png",
   },
@@ -19,7 +19,7 @@ const services = [
   {
     title: "Combo Completo",
     description:
-      "Corte + barba. A experiencia completa para quem busca excelencia em cada detalhe.",
+      "Corte + barba. A experiência completa para quem busca excelência em cada detalhe.",
     price: "A consultar",
     image: "/corte2.png",
   },
@@ -34,7 +34,7 @@ export function Services() {
             O que oferecemos
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 text-balance">
-            Nossos <span className="text-gold italic">Servicos</span>
+            Nossos <span className="text-gold italic">Serviços</span>
           </h2>
           <div className="flex items-center justify-center gap-4 mt-6">
             <div className="h-px w-16 bg-gold/40" />

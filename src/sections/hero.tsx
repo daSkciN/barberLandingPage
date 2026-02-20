@@ -28,7 +28,7 @@ export function Hero() {
         </p>
 
         <h1 className="text-5xl md:text-7xl lg:text-6xl font-bold text-foreground mb-2 leading-tight text-balance">
-          Estudio
+          Estúdio
         </h1>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight italic">
           Ericlis<span className="text-gold"> Barber</span>
@@ -53,7 +53,7 @@ export function Hero() {
             href="#servicos"
             className="flex items-center gap-3 border border-gold/40 text-foreground px-8 py-4 text-sm font-bold tracking-[0.15em] uppercase hover:border-gold hover:text-gold transition-colors font-[var(--font-lato)]"
           >
-            Nossos Servicos
+            Nossos Serviços
           </a>
         </div>
 

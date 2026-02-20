@@ -22,7 +22,7 @@ export function Footer() {
 
           <div className="text-center">
             <h3 className="text-foreground font-bold tracking-[0.15em] uppercase text-sm mb-6">
-              Links Rapidos
+              Links Rápidos
             </h3>
             <nav className="flex flex-col gap-3">
               {["Inicio", "Servicos", "Contato"].map(
@@ -62,7 +62,7 @@ export function Footer() {
               </a>
               <div className="flex items-center justify-center md:justify-end gap-2 text-muted-foreground text-sm font-[var(--font-lato)]">
                 <MapPin className="h-4 w-4 shrink-0" />
-                Rua Bahia N{"\u00BA"}1665, Aracaju-SE
+                Rua Amapa N{"\u00BA"}1665, Aracaju-SE
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-xs tracking-wider font-[var(--font-lato)]">
-            {"\u00A9"} 2026 Estudio Ericlis Barber. Todos os direitos
+            {"\u00A9"} 2026 Estúdio Ericlis Barber. Todos os direitos
             reservados.
           </p>
           <div className="flex items-center gap-4">
