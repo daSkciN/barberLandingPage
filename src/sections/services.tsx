@@ -12,7 +12,7 @@ const services = [
   {
     title: "Barba",
     description:
-      "Modelagem e alinhamento de barba com navalha para um resultado impecavel.",
+      "Modelagem e alinhamento de barba com navalha para um resultado impecável.",
     price: "A consultar",
     image: "/corte3.png",
   },
