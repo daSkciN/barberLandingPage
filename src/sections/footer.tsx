@@ -1,5 +1,5 @@
 import { Instagram, Phone, MapPin } from "lucide-react";
-import logo from "../assets/ericlisBarber.png"
+
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-12 items-start">
           <div className="flex flex-col items-center md:items-start">
             <img
-              src={logo}
+              src="/ericlisBarber.png"
               alt="Estudio Ericlis Barber Logo"
               width={80}
               height={80}

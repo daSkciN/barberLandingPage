@@ -1,7 +1,5 @@
 import { Scissors, Sparkles } from "lucide-react";
-import corte1 from "../assets/corte1.png";
-import corte2 from "../assets/corte2.png";
-import corte3 from "../assets/corte3.png";
+
 
 const services = [
   {
@@ -9,21 +7,21 @@ const services = [
     description:
       "Cortes modernos e classicos com tecnica e precisao. Do degrade ao social, encontramos o estilo perfeito para voce.",
     price: "A consultar",
-    image: corte1,
+    image: "/corte1.png",
   },
   {
     title: "Barba",
     description:
       "Modelagem e alinhamento de barba com navalha para um resultado impecavel.",
     price: "A consultar",
-    image: corte3,
+    image: "/corte3.png",
   },
   {
     title: "Combo Completo",
     description:
       "Corte + barba. A experiencia completa para quem busca excelencia em cada detalhe.",
     price: "A consultar",
-    image: corte2,
+    image: "/corte2.png",
   },
 ];
 
