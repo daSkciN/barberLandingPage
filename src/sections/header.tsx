@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Menu, X, Phone } from "lucide-react"
+import logo from "../assets/ericlisBarber.png"
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
@@ -17,7 +18,7 @@ export function Header() {
       <div className="mx-auto max-w-7xl flex items-center justify-between px-6 py-3">
         <a href="#inicio" className="flex items-center gap-3">
           <img
-            src="src/assets/ericlisBarber.png"
+            src={logo}
             alt="Estudio Ericlis Barber Logo"
             width={50}
             height={50}
