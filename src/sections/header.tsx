@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Menu, X, Phone } from "lucide-react"
+import { useState } from "react";
+import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
-  { label: "Inicio", href: "#inicio" },
+  { label: "Início", href: "#inicio" },
   { label: "Serviços", href: "#servicos" },
   { label: "Contato", href: "#contato" },
-]
+];
 
 export function Header() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
@@ -24,8 +24,12 @@ export function Header() {
             className="rounded-full"
           />
           <div className="hidden sm:block">
-            <p className="text-sm tracking-[0.2em] uppercase text-white font-[var(--font-lato)]">Estúdio</p>
-            <p className="text-lg font-bold tracking-wider text-foreground">ERICLIS <span className="text-gold italic">Barber</span></p>
+            <p className="text-sm tracking-[0.2em] uppercase text-white font-[var(--font-lato)]">
+              Estúdio
+            </p>
+            <p className="text-lg font-bold tracking-wider text-foreground">
+              ERICLIS <span className="text-gold italic">Barber</span>
+            </p>
           </div>
         </a>
 
@@ -88,5 +92,5 @@ export function Header() {
         </div>
       )}
     </header>
-  )
+  );
 }

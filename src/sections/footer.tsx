@@ -25,7 +25,7 @@ export function Footer() {
               Links Rápidos
             </h3>
             <nav className="flex flex-col gap-3">
-              {["Inicio", "Servicos", "Contato"].map(
+              {["Início", "Serviços", "Contato"].map(
                 (item) => (
                   <a
                     key={item}
